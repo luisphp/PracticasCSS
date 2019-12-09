@@ -1,0 +1,64 @@
+:root
+{
+	--bg-color: #eee;
+	--bg-color-2: #fff;
+	--text-color: #53575A;
+	--accent-color: #007BDF;
+	--font: 'Open Sans', sans-serif;
+}
+
+.box .card
+{
+	
+	height: 500px;
+}
+
+
+*, *::before, *::after
+{
+	box-sizing: border-box;
+
+}
+
+.cabezera .card
+{
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.cabezera .card p
+{
+	margin-right: 10px;
+	margin-left: 20px;
+	font-size: 20px;
+
+
+}
+
+.box2 .card
+{
+	background: url(fondo.jpg);
+	height: 500px;
+	
+}
+
+.box2 .card p
+{
+	font-size: 50px;
+	color: white;
+}
+
+
+/*Theme*/
+
+.cuerpo
+{
+	background-color: var(--bg-color);
+	color: var(--text-color),
+}
+
+.card
+{
+	background-color: var(--bg-color-2);
+}
